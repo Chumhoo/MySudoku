@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="设置">
+            <item
+                android:id="@+id/nav_music"
+                android:icon="@drawable/ic_music"
+                android:title="音乐：关闭"/>
+            <item
+                android:id="@+id/nav_sound"
+                android:icon="@drawable/ic_sound"
+                android:title="音效：关闭"/>
+
+            <item
+                    android:id="@+id/nav_gravity"
+                    android:icon="@drawable/ic_gravity"
+                    android:title="重力感应：关闭"/>
+    </item>
+
+    <group>
+        <item android:title="主题">
+            <menu>
+                <item
+                        android:id="@+id/nav_chocolate"
+                        android:icon="@drawable/ic_chocolate"
+                        android:title="巧克力甜甜圈"/>
+                <item
+                        android:id="@+id/nav_ice"
+                        android:icon="@drawable/ic_ice"
+                        android:title="冰天雪地"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="帮助和关于">
+        <menu>
+            <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_help"
+                    android:title="游戏帮助"/>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:title="开发者信息"/>
+        </menu>
+    </item>
+
+</menu>
